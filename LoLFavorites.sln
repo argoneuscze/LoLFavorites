@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoLFavorites", "LoLFavorites\LoLFavorites.csproj", "{D155B962-ECE6-4F88-95AD-E681734B1F4E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5EB349EE-2C1B-4253-8623-E6B8C379B6CD} = {5EB349EE-2C1B-4253-8623-E6B8C379B6CD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdate", "AutoUpdate\AutoUpdate.csproj", "{5EB349EE-2C1B-4253-8623-E6B8C379B6CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D155B962-ECE6-4F88-95AD-E681734B1F4E}.Debug|x86.ActiveCfg = Debug|x86
+		{D155B962-ECE6-4F88-95AD-E681734B1F4E}.Debug|x86.Build.0 = Debug|x86
+		{D155B962-ECE6-4F88-95AD-E681734B1F4E}.Release|x86.ActiveCfg = Release|x86
+		{D155B962-ECE6-4F88-95AD-E681734B1F4E}.Release|x86.Build.0 = Release|x86
+		{5EB349EE-2C1B-4253-8623-E6B8C379B6CD}.Debug|x86.ActiveCfg = Debug|x86
+		{5EB349EE-2C1B-4253-8623-E6B8C379B6CD}.Debug|x86.Build.0 = Debug|x86
+		{5EB349EE-2C1B-4253-8623-E6B8C379B6CD}.Release|x86.ActiveCfg = Release|x86
+		{5EB349EE-2C1B-4253-8623-E6B8C379B6CD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
