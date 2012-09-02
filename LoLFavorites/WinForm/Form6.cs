@@ -45,6 +45,8 @@ namespace LoLFavorites.WinForm
         {
             if (checkBox1.Checked)
                 Config.autoUpdate = false;
+            else
+                Config.autoUpdate = true;
 
             this.Close();
         }
